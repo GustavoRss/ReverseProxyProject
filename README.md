@@ -11,5 +11,3 @@ O objetivo desta POC é explorar e aplicar conceitos essenciais de arquitetura d
 - Cache: O proxy inclui um mecanismo de cache de resposta para melhorar o desempenho. As respostas às solicitações são armazenadas em cache temporariamente, reduzindo a carga nos serviços de destino.
 
 - Roteamento de solicitações: O proxy é configurado para rotear solicitações para serviços de destino com base em diferentes caminhos de URL. Cada caminho de URL é associado a um serviço de destino específico.
-
-- Desacoplamento e Injeção de Dependência: A aplicação segue princípios de arquitetura de software que favorecem o desacoplamento e a injeção de dependência, facilitando a manutenção e extensibilidade do código.
